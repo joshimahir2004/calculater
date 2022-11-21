@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 
+   c . % /
+   7 8 9 *
+   4 5 6 -
+   1 2 3 +
+   0   . =
+ -->
+        <div class="box">
+            <div class="waviy">
+                <span style="--i:1">w</span>
+                <span style="--i:2">e</span>
+                <span style="--i:3">l</span>
+                <span style="--i:4">c</span>
+                <span style="--i:5">o</span>
+                <span style="--i:6">m</span>
+                <span style="--i:7">e</span>
+            </div>
+            <div class="calc">
+                <input type="text" id="input" class="button-34" role="button">
+
+                <div class="row">
+                    <button id="cancle-btn" onclick="cancle()">C</button>
+                    <button class="button">.</button>
+                    <button class="button">%</button>
+                    <button class="button">/</button>
+
+                </div>
+                <div class="row">
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
+                    <button class="button">*</button>
+                </div>
+                <div class="row">
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
+                    <button class="button">-</button>
+                </div>
+                <div class="row">
+                    <button class="button">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+                    <button class="button">+</button>
+                </div>
+                <div class="row">
+                    <button class="button" id="zero">0</button>
+                    <button class="button">.</button>
+                    <button class="button" id="=">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
